@@ -1,0 +1,10 @@
+{
+    "id_name": "papermc_api_v2",
+    "version": 1,
+    "author": "tom",
+    "name": "Interface for Paper MC api v2",
+    "description": "",
+    "dependencies": {
+        "settings": 2
+    }
+}
