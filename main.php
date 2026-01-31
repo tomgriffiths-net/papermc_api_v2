@@ -7,7 +7,6 @@
 
 class papermc_api_v2{
     public static function getLatest(string $projectName):string{
-        mklog('general','Downloading the latest version of papermc');
         $latestVersion = self::getLatestVersion($projectName);
         $latestBuild = self::getLatestBuild($projectName,$latestVersion);
         return $latestVersion . "-" . $latestBuild;
